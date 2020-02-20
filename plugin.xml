@@ -29,7 +29,7 @@
 
         <framework src="src/ios/Framework/ImageProcessing.framework" embed="true" custom="true"/>
         <framework src="src/ios/Framework/VDLibrary.framework" embed="true" custom="true"/>
-        <framework src="src/ios/Framework/ZipArchive.framework" embed="true"/>
+        <framework src="src/ios/Framework/ZipArchive.framework" embed="true" custom="true"/>
 
     </platform>
 </plugin>

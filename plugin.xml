@@ -16,7 +16,23 @@
       </engines>
 
     <!-- android -->
-    
+     <platform name="android">
+
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="VDCore">
+          <param name="android-package" value="com.syntonize.VDCore" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+
+
+
+      <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+
+      <resource-file src="src/android/libs/VDLibraryImageProcessing.aar"  />
+      <resource-file src="src/android/libs/VDLogger.aar"  />
+
+    </platform>
 
     <!-- ios -->
     <platform name="ios">

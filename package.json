@@ -1,0 +1,12 @@
+{
+  "name": "cordova-plugin-vdcore",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-plugin-vdcore",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "VD Core dependencies"
+}

@@ -1,3 +1,10 @@
+
+repositories {    
+    jcenter()
+    flatDir {
+        dirs 'src/main/libs'
+    }
+}
 dependencies {
 
     compile(name:'VDLibraryImageProcessing', ext:'aar')
@@ -8,4 +15,11 @@ dependencies {
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
     
     
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
 }

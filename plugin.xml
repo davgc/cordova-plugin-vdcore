@@ -29,8 +29,8 @@
 
       <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
 
-      <resource-file src="src/android/libs/VDLibraryImageProcessing.aar"  />
-      <resource-file src="src/android/libs/VDLogger.aar"  />
+      <resource-file src="src/android/libs/VDLibraryImageProcessing.aar"  target="libs/VDLibraryImageProcessing.aar"/>
+      <resource-file src="src/android/libs/VDLogger.aar"  target="libs/VDLogger.aar"/>
 
     </platform>
 

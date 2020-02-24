@@ -16,7 +16,7 @@
       </engines>
 
     <!-- android -->
-     <platform name="android">
+     <!-- <platform name="android">
 
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="VDCore">
@@ -32,7 +32,7 @@
       <resource-file src="src/android/libs/VDLibraryImageProcessing.aar"  target="libs/VDLibraryImageProcessing.aar"/>
       <resource-file src="src/android/libs/VDLogger.aar"  target="libs/VDLogger.aar"/>
 
-    </platform>
+    </platform> -->
 
     <!-- ios -->
     <platform name="ios">

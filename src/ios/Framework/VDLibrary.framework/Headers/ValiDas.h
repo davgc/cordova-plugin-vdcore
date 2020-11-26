@@ -310,4 +310,6 @@
 
 + (BOOL) isDocumentSmart:(ValiDasDocumento*) document;
 
++(BOOL) isThereSomeNonIntelligentDocument:(NSArray<ValiDasDocumento*>*) documentArray analysisType:(AnalysisType) analysisType;
+
 @end

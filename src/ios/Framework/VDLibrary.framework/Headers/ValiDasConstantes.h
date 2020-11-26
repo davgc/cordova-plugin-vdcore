@@ -12,6 +12,7 @@
 typedef enum {
     MODE_XML,
     MODE_TM,
+    MODE_RECTANGLES,
 } detectorMode;
 
 /**

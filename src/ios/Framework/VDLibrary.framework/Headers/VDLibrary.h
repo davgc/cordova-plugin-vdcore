@@ -15,7 +15,8 @@ FOUNDATION_EXPORT double VDLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char VDLibraryVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <VDLibrary/PublicHeader.h>
-#import <VDLibrary/ValiDas.h>
-#import <VDLibrary/ValiDasDocumento.h>
-#import <VDLibrary/ValiDasConstantes.h>
-#import <VDLibrary/ValiDasPais.h>
+
+#import "ValiDas.h"
+#import "ValiDasDocumento.h"
+#import "ValiDasConstantes.h"
+#import "ValiDasPais.h"
